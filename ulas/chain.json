@@ -1,0 +1,61 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "ULAS",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "ULAS",
+  "chain_id": "ulas-testnetwork-1",
+  "bech32_prefix": "ulas",
+  "daemon_name": "ulasd",
+  "node_home": "$HOME/.ulas",
+  "genesis": {
+    "genesis_url": "https://raw.githubusercontent.com/ulasnetwork/chain-config/main/ulas/genesis.json"
+  },
+  "codebase": {
+    "git_repo": "https://github.com/ulasnetwork/ulas-chain",
+    "recommended_version": "v0.0.1",
+    "compatible_versions": ["v0.0.1"]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "",
+        "address": ""
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "",
+        "address": "",
+        "provider": ""
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "",
+        "provider": "UlasNetwork"
+      }
+    ],
+    "rest": [
+      {
+        "address": "",
+        "provider": "UlasNetwork"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "",
+        "provider": "UlasNetwork"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "mintscan",
+      "url": "https://mintscan.io/ulasnetwork",
+      "tx_page": "https://mintscan.io/ulasnetwork/txs/${txHash}"
+    }
+  ]
+}
