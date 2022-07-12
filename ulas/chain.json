@@ -16,37 +16,22 @@
     "recommended_version": "v0.0.1",
     "compatible_versions": ["v0.0.1"]
   },
-  "peers": {
-    "seeds": [
-      {
-        "id": "",
-        "address": ""
-      }
-    ],
-    "persistent_peers": [
-      {
-        "id": "",
-        "address": "",
-        "provider": ""
-      }
-    ]
-  },
   "apis": {
     "rpc": [
       {
-        "address": "",
+        "address": "http://65.49.204.199:26657",
         "provider": "UlasNetwork"
       }
     ],
     "rest": [
       {
-        "address": "",
+        "address": "http://65.49.204.199:1317",
         "provider": "UlasNetwork"
       }
     ],
     "grpc": [
       {
-        "address": "",
+        "address": "http://65.49.204.199:9090",
         "provider": "UlasNetwork"
       }
     ]
